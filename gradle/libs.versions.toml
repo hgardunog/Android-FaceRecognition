@@ -1,0 +1,132 @@
+[versions]
+activity = "1.8.0"
+adsIdentifier = "18.0.0"
+agp = "8.5.0"
+annotation = "1.11.0"
+appcompat = "1.8.0"
+camera = "1.3.1"
+constraintlayout = "2.2.2"
+core = "1.13.0"
+coreCommon = "2.2.0"
+coreKtx = "1.13.0"
+exifinterface = "1.3.6"
+faceDetection = "16.1.7"
+firebaseAnalytics = "23.2.0"
+firebaseAnnotations = "16.2.0"
+firebaseCommon = "21.0.0"
+firebaseComponents = "18.0.0"
+firebaseInstallations = "17.0.1"
+firebaseInstallationsInterop = "17.0.1"
+firebaseMeasurementConnector = "19.0.0"
+firebaseMlModelInterpreter = "22.0.4"
+foojay = "1.0.0"
+fragment = "1.6.2"
+googleServices = "4.4.2"
+gradleToolchainsFoojayResolverConvention = "0.8.0"
+gson = "2.14.0"
+guava = "33.7.1-jre"
+junit = "4.13.2"
+kotlin = "2.1.0"
+lifecycle = "2.11.0"
+lifecycleCommon = "2.6.2"
+lifecycleLiveData = "2.11.0"
+lifecycleLivedataCore = "2.11.0"
+lifecycleLivedataCoreKtx = "2.11.0"
+lifecycleRuntime = "2.6.2"
+lifecycleViewmodel = "2.11.0"
+lifecycleViewmodelAndroid = "2.11.0"
+lifecycleViewmodelSavedState = "2.6.1"
+mlkit = "16.0.0"
+mlkitCommon = "18.9.0"
+mlkitVisionCommon = "17.3.0"
+mlkitVisionInterfaces = "16.0.0"
+multidex = "2.0.1"
+odmlImage = "1.0.0-beta1"
+playServicesBasement = "18.3.0"
+playServicesMeasurementApi = "22.1.2"
+playServicesMeasurementBase = "22.1.2"
+playServicesMeasurementImpl = "22.1.2"
+playServicesMeasurementSdkApi = "22.1.2"
+playServicesMlkitFaceDetection = "17.1.0"
+playServicesStats = "17.0.3"
+playServicesTasks = "18.2.0"
+savedState = "1.2.1"
+tensorflowLite = "2.14.0"
+test = "1.7.0"
+versionedParcelable = "1.1.1"
+
+[libraries]
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
+androidx-camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camera" }
+androidx-camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camera" }
+androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camera" }
+androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camera" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-core = { group = "androidx.core", name = "core", version.ref = "core" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+androidx-lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
+androidx-lifecycle-viewmodel-android = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-android", version.ref = "lifecycleViewmodelAndroid" }
+androidx-lifecycle-livedata-core = { group = "androidx.lifecycle", name = "lifecycle-livedata-core", version.ref = "lifecycleLivedataCore" }
+androidx-lifecycle-livedata-core-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-core-ktx", version.ref = "lifecycleLivedataCoreKtx" }
+androidx-lifecycle-common = { group = "androidx.lifecycle", name = "lifecycle-common", version.ref = "lifecycleCommon" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime", version.ref = "lifecycleRuntime" }
+androidx-lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version.ref = "lifecycleViewmodelSavedState" }
+androidx-savedstate = { group = "androidx.savedstate", name = "savedstate", version.ref = "savedState" }
+androidx-multidex = { group = "androidx.multidex", name = "multidex", version.ref = "multidex" }
+androidx-rules = { group = "androidx.test", name = "rules", version.ref = "test" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "test" }
+androidx-core-runtime = { group = "androidx.core", name = "core-runtime", version.ref = "coreCommon" }
+androidx-versionedparcelable = { group = "androidx.versionedparcelable", name = "versionedparcelable", version.ref = "versionedParcelable" }
+androidx-exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+
+com-google-android-gms-play-services-ads-identifier = { group = "com.google.android.gms", name = "play-services-ads-identifier", version.ref = "adsIdentifier" }
+com-google-android-gms-play-services-basement = { group = "com.google.android.gms", name = "play-services-basement", version.ref = "playServicesBasement" }
+com-google-android-gms-play-services-measurement-base = { group = "com.google.android.gms", name = "play-services-measurement-base", version.ref = "playServicesMeasurementBase" }
+com-google-android-gms-play-services-measurement-impl = { group = "com.google.android.gms", name = "play-services-measurement-impl", version.ref = "playServicesMeasurementImpl" }
+com-google-android-gms-play-services-measurement-sdk-api = { group = "com.google.android.gms", name = "play-services-measurement-sdk-api", version.ref = "playServicesMeasurementSdkApi" }
+com-google-android-gms-play-services-stats = { group = "com.google.android.gms", name = "play-services-stats", version.ref = "playServicesStats" }
+com-google-android-gms-play-services-measurement-api = { group = "com.google.android.gms", name = "play-services-measurement-api", version.ref = "playServicesMeasurementApi" }
+com-google-android-gms-play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasks" }
+com-google-android-gms-play-services-mlkit-face-detection = { group = "com.google.android.gms", name = "play-services-mlkit-face-detection", version.ref = "playServicesMlkitFaceDetection" }
+com-google-android-odml-image = { group = "com.google.android.odml", name = "image", version.ref = "odmlImage" }
+com-google-mlkit-common = { group = "com.google.mlkit", name = "common", version.ref = "mlkitCommon" }
+com-google-mlkit-vision-common = { group = "com.google.mlkit", name = "vision-common", version.ref = "mlkitVisionCommon" }
+com-google-mlkit-vision-interfaces = { group = "com.google.mlkit", name = "vision-interfaces", version.ref = "mlkitVisionInterfaces" }
+
+com-google-code-gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+com-google-firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+com-google-firebase-common = { group = "com.google.firebase", name = "firebase-common", version.ref = "firebaseCommon" }
+com-google-firebase-components = { group = "com.google.firebase", name = "firebase-components", version.ref = "firebaseComponents" }
+com-google-firebase-annotations = { group = "com.google.firebase", name = "firebase-annotations", version.ref = "firebaseAnnotations" }
+com-google-firebase-installations = { group = "com.google.firebase", name = "firebase-installations", version.ref = "firebaseInstallations" }
+com-google-firebase-installations-interop = { group = "com.google.firebase", name = "firebase-installations-interop", version.ref = "firebaseInstallationsInterop" }
+com-google-firebase-measurement-connector = { group = "com.google.firebase", name = "firebase-measurement-connector", version.ref = "firebaseMeasurementConnector" }
+com-google-firebase-ml-model-interpreter = { group = "com.google.firebase", name = "firebase-ml-model-interpreter", version.ref = "firebaseMlModelInterpreter" }
+
+com-google-guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+com-google-android-odml = { group = "com.google.android.odml", name = "image", version.ref = "odmlImage" }
+com-google-mlkit = { group = "com.google.mlkit", name = "vision", version.ref = "mlkit" }
+org-jetbrains-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk7", version.ref = "kotlin" }
+org-tensorflow = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflowLite" }
+
+# Short aliases used in build scripts
+face-detection = { group = "com.google.android.gms", name = "play-services-mlkit-face-detection", version.ref = "playServicesMlkitFaceDetection" }
+firebase-ml-model-interpreter = { group = "com.google.firebase", name = "firebase-ml-model-interpreter", version.ref = "firebaseMlModelInterpreter" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+tensorflow-lite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflowLite" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+
+[plugins]
+gradle-toolchains-foojay-resolver-convention = { id = "org.gradle.toolchains.foojay-resolver-convention", version.ref = "gradleToolchainsFoojayResolverConvention" }
+foojay = { id = "com.github.foojay", version.ref = "foojay" }

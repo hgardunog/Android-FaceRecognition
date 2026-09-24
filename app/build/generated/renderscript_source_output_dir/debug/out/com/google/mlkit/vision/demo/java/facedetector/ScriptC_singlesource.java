@@ -16,7 +16,7 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\rs\\singlesource.rs
+ * The source Renderscript file: E:\\07.00 GamesDesign\\Android-FaceRecognition\\app\\src\\main\\rs\\singlesource.rs
  */
 
 package com.google.mlkit.vision.demo.java.facedetector;
